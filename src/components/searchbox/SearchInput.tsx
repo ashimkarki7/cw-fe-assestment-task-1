@@ -21,7 +21,7 @@ export default function SearchInput({
     }, [initialValue]);
 
     return (
-        <div className="flex items-center bg-black px-4 py-2 rounded-[12px] w-full max-w-xl mt-8 shadow-lg">
+        <div className="flex items-center bg-[#1C2126] px-4 py-2 rounded-[12px] w-full max-w-xl mt-8 shadow-lg">
             <Search className="text-gray-400 mr-3" />
             <Input
                 value={innerValue}

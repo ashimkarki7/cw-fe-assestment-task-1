@@ -3,9 +3,9 @@ import type {TagListProps} from '@/components/taglist/types.ts';
 
 export default  function TagList({keyName, title, tags,onTagClick,selectedTag }:TagListProps) {
     return (
-        <div className="mt-8 px-6 max-w-5xl mx-auto" id={keyName} >
+        <div className="mt-8 lg:px-1 px-6 max-w-5xl mx-auto  lg:h-[47px]" id={keyName} >
             <div className="text-white text-lg font-semibold mb-4">{title}</div>
-            <div className="flex flex-wrap gap-3">
+            <div className="flex flex-wrap gap-3 ">
                 {tags?.map((tag) => {
                     const isSelected = selectedTag === tag;
                     return (

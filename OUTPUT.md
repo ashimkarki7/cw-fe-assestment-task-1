@@ -25,6 +25,7 @@
 - Fix: added Cursor Pointer.
 - issue : margin top isn't according to figma
 - Fix: BoxArea108 added margin Top to text box
+- Background Color fix and responsiveness
 
 ### TagList
 - Issue: Making TagList Component Feature in the same Component Level as main app, lacking  modularity,reusability,folder structure

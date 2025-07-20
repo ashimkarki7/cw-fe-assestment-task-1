@@ -27,11 +27,12 @@ const Layout =() =>{
     return (
         <main className="bg-[#121417] min-h-screen text-white">
            <Header/>
-           <SearchBox/>
-           <TagList keyName={'trending'} title="Trending" tags={tags}     selectedTag={selectedTags.trending}
-                    onTagClick={(tag) => handleTagClick("trending", tag)}/>
-           <TagList  keyName={'foryou'} title="For you" tags={tags}    selectedTag={selectedTags.forYou}
-                     onTagClick={(tag) => handleTagClick("forYou", tag)}/>
+                <SearchBox/>
+
+    <TagList keyName={'trending'} title="Trending" tags={tags}     selectedTag={selectedTags.trending}
+             onTagClick={(tag) => handleTagClick("trending", tag)}/>
+    <TagList  keyName={'foryou'} title="For you" tags={tags}    selectedTag={selectedTags.forYou}
+              onTagClick={(tag) => handleTagClick("forYou", tag)}/>
         </main>
     );
 };
