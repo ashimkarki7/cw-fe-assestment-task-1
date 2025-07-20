@@ -1,12 +1,27 @@
 ## Changes Made
-
-###[BoxArea97]
+###main
+-fix changed header color according to figma
+### BoxArea97 (SearchBox)
 - Issue: Making BoxArea97 Component Feature in the same Component Level as main app,lacking  modularity,reusability,folder structure
 - Fix: Moved `BoxArea97` → `SearchBox.tsx` in `searchbox/`
+- Margin top not exactly 20px
+- Fix: margin Top
+- Figma padding is 32px on both sides
+- Fix: Fixed padding
+- Issue: Figma has Brighter image
+- Fix:added transparency 0% to existing image
+- Issue:text isn't aligned to center
+- Fix: aligned text to center as in figma
 
-### BoxArea108
+### BoxArea108 (SearchInput)
 - Issue: Making BoxArea108 Component Feature in the same Component Level as main app, lacking  modularity,reusability,folder structure
 - Fix: Moved `BoxArea108` → `SearchInput.tsx` in `searchbox/`
+- Issue:header Search box border
+-  Fix: changed box border
+- issue missing Cursor Pointer
+- Fix: added Cursor Pointer.
+- issue : margin top isn't according to figma
+- Fix: BoxArea108 added margin Top to text box
 
 ### TagList
 - Issue: Making TagList Component Feature in the same Component Level as main app, lacking  modularity,reusability,folder structure
@@ -37,8 +52,9 @@
 - Issue: Header is not responsive on mobile view
 -  Fix: made mobile header responsive using use mobile hook
 - Issue: Extra span on search
--  removed three nested span
-
+- Fix  removed three nested span
+- Issue: Header Color
+- Fix :removed Extra header bg color
 
 
 

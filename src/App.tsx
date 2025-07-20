@@ -21,7 +21,7 @@ export default function App() {
         }));
     }, []);
 
-    return (<main className="bg-black min-h-screen text-white">
+    return (<main className="bg-[#121417] min-h-screen text-white">
             <Header/>
             <BoxArea97/>
             <TagList keyName={'trending'} title="Trending" tags={tags}     selectedTag={selectedTags.trending}

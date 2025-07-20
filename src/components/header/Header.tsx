@@ -9,7 +9,7 @@ const Header =() =>{
     const isMobile = useIsMobile();
     const [inputText, setInputText] = useState<string>('');
     return (
-            <header id={`header`}  className={`flex items-center justify-between md:px-10 ${isMobile ? "px-2" : "px-8"} py-4 bg-black border-b border-[#9EABB8]`}>
+            <header id={`header`}  className={`flex items-center justify-between md:px-10 ${isMobile ? "px-2" : "px-8"} py-4  border-b border-[#9EABB8]`}>
             <div className="flex items-center gap-2">
                 <img src="/task1/logo.png" alt="Logo" className="h-4 w-4" />
                 <div className={`text-white font-semibold  text-lg`}>Worctionary</div>
