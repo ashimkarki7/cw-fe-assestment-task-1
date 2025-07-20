@@ -1,3 +1,21 @@
+## Changes Made
+
+###[BoxArea97] 
+Refactored component structure for modularity and maintainability:
+- Moved `BoxArea97` → `SearchBox.tsx` in `searchbox/`
+
+### BoxArea108
+- Moved `BoxArea108` → `SearchInput.tsx` in `searchbox/`
+
+### TagList
+- Moved tag badge rendering to `TagList.tsx` under `taglist/`
+- Added Types To Props Passes to TagList Element
+- ### Header
+- Created reusable `Header.tsx` under `header/`
+
+
+
+
 [Example output - you should start from scratch]
 
 ## Changes Made
