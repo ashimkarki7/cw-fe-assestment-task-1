@@ -1,2 +1,2 @@
-export { default as BoxArea97 } from "./SearchBox";
-export { default as BoxArea108 } from "./SearchInput";
+export { default as SearchBox } from "./SearchBox";
+export { default as SearchInput } from "./SearchInput";

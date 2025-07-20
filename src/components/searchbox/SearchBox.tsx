@@ -1,6 +1,6 @@
-import {BoxArea108} from './index.ts';
+import {SearchInput} from './index.ts';
 
-export default  function BoxArea97() {
+export default  function SearchBox() {
     const onSearch = (search: string) => {
         console.log(search);
         // implementing the search logic is not required for this task
@@ -15,7 +15,7 @@ export default  function BoxArea97() {
                     Search for words, phrases and meanings
                 </h1>
                 </div>
-                <BoxArea108 initialValue="" onSearch={onSearch} />
+                <SearchInput initialValue="" onSearch={onSearch} />
             </div>
         </div>
     );

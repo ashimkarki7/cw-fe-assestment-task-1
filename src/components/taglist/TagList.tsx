@@ -16,7 +16,7 @@ export default  function TagList({keyName, title, tags,onTagClick,selectedTag }:
                                 isSelected
                                     ? "bg-blue-600 text-white hover:bg-blue-700 cursor-pointer"
                                     : "bg-gray-800 text-white hover:bg-gray-700 cursor-pointer"
-                            }`}
+                            } ${keyName === 'trending' && tag === 'Ghosting' ? 'ghost-text' : ''}`}
                         >
                             {tag}
                         </Badge>

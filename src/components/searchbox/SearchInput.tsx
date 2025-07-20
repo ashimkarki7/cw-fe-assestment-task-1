@@ -3,7 +3,7 @@ import {Search} from 'lucide-react';
 import {Input} from '@/components/ui/input.tsx';
 import {Button} from '@/components/ui/button.tsx';
 
-export default function BoxArea108({
+export default function SearchInput({
                         initialValue,
                         onSearch,
                     }: {

@@ -1,6 +1,9 @@
 ## Changes Made
-###main
+
+
+#### Layout
 -fix changed header color according to figma
+
 ### BoxArea97 (SearchBox)
 - Issue: Making BoxArea97 Component Feature in the same Component Level as main app,lacking  modularity,reusability,folder structure
 - Fix: Moved `BoxArea97` → `SearchBox.tsx` in `searchbox/`
@@ -33,6 +36,10 @@
 - Fix :  Added Types To Props Passes to TagList Element
 - Issue: avoiding key conflict in Badge Iteration
 - Fix :  Added {`${keyName}-${tag}`} for easy way to trace make to this section later, avoiding diffing algorithm issue later.
+- Issue: tags, setTags is only being used as getter
+- Fix :Use memo is more efficient here since the value doesn't change instead of UseState
+- Ghosting font for trending is different
+- Added Work sans as in figma
 
 - ### Header
 - Issue: Making Header Component Feature in the same Component Level as main app, lacking  modularity,reusability,folder structure
@@ -58,27 +65,3 @@
 
 
 
-[Example output - you should start from scratch]
-
-## Changes Made
-
-###[Component Name]
-
-1. useEffect in line 37
-   - Issue: useEffect missing dependencies causing stale state
-   - Fix: Added required dependencies to useEffect array
-2. Accessibility issue with the search icon line 98
-   - Issue: search icon is not accessible
-   - Fix: Added search icon to the input field
-
-### [Another Component Name]
-
-1. ...
-   - Issue: ...
-   - Fix: ...
-2. ...
-   - Issue: ...
-   - Fix: ...
-3. ...
-   - Issue: ...
-   - Fix: ...

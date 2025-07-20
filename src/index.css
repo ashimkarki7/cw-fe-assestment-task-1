@@ -115,6 +115,10 @@
     @apply border-border outline-ring/50;
   }
   body {
+    font-family: 'Inter', ui-sans-serif, system-ui, sans-serif;
     @apply bg-background text-foreground;
   }
+}
+.ghost-text{
+  font-family: 'Work Sans', sans-serif;
 }
