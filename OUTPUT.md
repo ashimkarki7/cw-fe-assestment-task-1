@@ -1,15 +1,24 @@
 ## Changes Made
 
-###[BoxArea97] 
-Refactored component structure for modularity and maintainability:
-- Moved `BoxArea97` → `SearchBox.tsx` in `searchbox/`
+###[BoxArea97]
+- Issue: Making BoxArea97 Component Feature in the same Component Level as main app,lacking  modularity,reusability,folder structure
+- Fix: Moved `BoxArea97` → `SearchBox.tsx` in `searchbox/`
 
 ### BoxArea108
-- Moved `BoxArea108` → `SearchInput.tsx` in `searchbox/`
+- Issue: Making BoxArea108 Component Feature in the same Component Level as main app, lacking  modularity,reusability,folder structure
+- Fix: Moved `BoxArea108` → `SearchInput.tsx` in `searchbox/`
 
 ### TagList
-- Moved tag badge rendering to `TagList.tsx` under `taglist/`
-- Added Types To Props Passes to TagList Element
+- Issue: Making TagList Component Feature in the same Component Level as main app, lacking  modularity,reusability,folder structure
+- Fixed :Moved tag badge rendering to `TagList.tsx` under `taglist/`
+- Issue: Tag list Items not Clickable
+- Fix : Made Tags Clickable, Added Selected Colour 
+- Fix : Added useCallback to handle handleTagClick for prop stability
+- Issue: No Types Assigned to Pros
+- Fix :  Added Types To Props Passes to TagList Element
+- Issue: avoiding key conflict in Badge Iteration
+- Fix :  Added {`${keyName}-${tag}`} for easy way to trace make to this section later, avoiding diffing algorithm issue later.
+
 - ### Header
 - Created reusable `Header.tsx` under `header/`
 
