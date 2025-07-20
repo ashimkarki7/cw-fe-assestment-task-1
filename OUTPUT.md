@@ -20,7 +20,24 @@
 - Fix :  Added {`${keyName}-${tag}`} for easy way to trace make to this section later, avoiding diffing algorithm issue later.
 
 - ### Header
+- Issue: Making Header Component Feature in the same Component Level as main app, lacking  modularity,reusability,folder structure
 - Created reusable `Header.tsx` under `header/`
+- Issue:Spelling Error "Wortionary" Header Title in the current Code , but it should be "Worctionary" as per the Figma design.
+- Fix:  Corrected the spelling to match the Figma design.
+- Issue:Word Casing Error "search" in the header search placeholder is in lower case , but it should be "Search" capitalized as per the Figma design.
+- Fix:  Corrected the placeholder text to "Search" to match the Figma design.
+- Issue:No Image for Avatar on the top right , as per the Figma design.
+- Fix: Downloaded Image to match the Figma design.
+- Avatar size.
+-  Fix: Tuned Avatar size to align with Figma layout
+-Issue:header padding and border Bottom Color
+-  Fix: changed header padding to match 40px as in figma, border color changed
+- Issue:header Search box padding and color width and value is set to search
+-  Fix: changed box padding to match  as in figma added placeholder text
+- Issue: Header is not responsive on mobile view
+-  Fix: made mobile header responsive using use mobile hook
+- Issue: Extra span on search
+-  removed three nested span
 
 
 
